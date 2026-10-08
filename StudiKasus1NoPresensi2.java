@@ -50,25 +50,3 @@ public class StudiKasus1NoPresensi2{
 
 
 }
-} else if (jeniskegiatan.equals("pkm")) {
-            System.out.print("Status pendanaan PKM (1 = lolos, 0 = tidak lolos): ");
-            status = sc.nextInt();
-
-            // Tingkat 2: apakah lolos pendanaan?
-            if (status == 1) {
-                System.out.print("Jumlah dokumen yang diupload (0-4): ");
-                jumlahDokumen = sc.nextInt();
-
-                // Tingkat 3: apakah dokumen lengkap?
-                if (jumlahDokumen == 4) {
-                    System.out.println("Status : MENDAPAT dana penghargaan");
-                    System.out.println("Alasan : Tim lolos pendanaan PKM dan 4 dokumen lengkap");
-                } else {
-                    System.out.println("Status : TIDAK mendapat dana penghargaan");
-                    System.out.println("Alasan : Dokumen tidak lengkap");
-                    System.out.println("Dokumen yang masih kurang : " + (4 - jumlahDokumen));
-                }
-            } else {
-                System.out.println("Status : TIDAK mendapat dana penghargaan");
-                System.out.println("Alasan : Tim tidak lolos pendanaan PKM");
-            }
