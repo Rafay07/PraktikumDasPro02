@@ -8,4 +8,4 @@ Hasil Uji Studi Kasus 2 oleh Satya
 |----|--------  ------ ------------------------------- ---------------------    -------
 | 1  | PKM     4       MENDAPAT dana penghargaan       4 dokumen lengkap         Ya      
 | 2  | BAKORMA 3       TIDAK mendapat dana penghargaan Dokumen tidak lengkap     Ya      
-| 3  | MANDIRI 4       Juara 1 dan 4 dokumen lengkap | MENDAPAT dana penghargaan Y 
+| 3  | MANDIRI 4       Juara 1 dan 4 dokumen lengkap | MENDAPAT dana penghargaan Ya 
