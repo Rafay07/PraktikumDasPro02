@@ -29,24 +29,8 @@ public class StudiKasus1NoPresensi2{
         kurang=totalBayar-uangBayar;
         System.out.println("Maaf,Uang anda kurang sebesar Rp."+ kurang+",silahkan ganti mode pembayaran");
     }
-    
-
-
-
 
     sc.close();
-
-
-
-
-
-
-
 }
-
-
-
-
-
 
 }
